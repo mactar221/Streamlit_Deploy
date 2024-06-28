@@ -11,8 +11,6 @@ df = pd.read_csv('output.csv')
 #len(sampled_df)
 
 
-#st.dataframe(sampled_df)
-
 st.dataframe(df)
 
 
@@ -178,16 +176,9 @@ import pandas as pd
 import ydata_profiling
 import streamlit as st
 
-
 from streamlit_pandas_profiling import st_profile_report
 
+df = pd.read_csv("sampled_df).csv")
 pr = df.profile_report()
 
 st_profile_report(pr)
-
-
-
-
-
-
-
