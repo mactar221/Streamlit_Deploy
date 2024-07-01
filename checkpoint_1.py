@@ -19,8 +19,8 @@ import streamlit as st # import streamlit and assign it to the variable 'st'
 st.title("Machine Learning Workflow with Streamlit")
 
 #Step 1: Upload the dataset
-st.header("Step 1: Upload the Dataset")
-uploaded_file = st.file_uploader("output.csv", type="csv")
+#st.header("Step 1: Upload the Dataset")
+#uploaded_file = st.file_uploader("output.csv", type="csv")
 #if uploaded_file is not None:
     #df = pd.read_csv(uploaded_file)
     #st.write("Data Preview:")
