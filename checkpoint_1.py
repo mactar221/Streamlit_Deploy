@@ -12,7 +12,7 @@ df = pd.read_csv('output.csv')
 #len(sampled_df)
 
 
-st.dataframe(output)
+st.dataframe(df)
 
 import streamlit as st # import streamlit and assign it to the variable 'st'
 
