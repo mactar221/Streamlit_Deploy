@@ -15,7 +15,6 @@ GitPython==3.1.43
 htmlmin==0.1.12
 idna==3.7
 ImageHash==4.3.1
-joblib==1.2.0
 Jinja2==3.1.4
 jsonschema==4.22.0
 jsonschema-specifications==2023.12.1
@@ -31,7 +30,6 @@ numba==0.60.0
 numpy==1.26.4
 packaging==24.1
 pandas==2.2.2
-pandas-profiling==3.2.0
 patsy==0.5.6
 pillow==10.3.0
 protobuf==5.27.2
@@ -49,7 +47,6 @@ referencing==0.35.1
 requests==2.32.3
 rich==13.7.1
 rpds-py==0.18.1
-scikit-learn==1.5.0
 scipy==1.13.1
 seaborn==0.13.2
 six==1.16.0
@@ -69,4 +66,3 @@ tzdata==2024.1
 urllib3==2.2.2
 visions==0.7.4
 wordcloud==1.9.3
-ydata-profiling==4.8.3
