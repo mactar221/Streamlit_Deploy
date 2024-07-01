@@ -181,3 +181,4 @@ df = pd.read_csv("output.csv")
 profile = ProfileReport(df)
 profile
 #st_profile_report(pr)
+#joblib==1.1.0
