@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import io # import the io module
 import streamlit as st # import streamlit and assign it to the variable 'st'
 
-df = pd.read_csv('Financial_inclusion_dataset(1).csv')
+df = pd.read_csv('Financial_inclusion_dataset.csv')
 #sampled_df = df.sample(frac=0.4)  # Get 50% of the data 
 #len(sampled_df)
 
