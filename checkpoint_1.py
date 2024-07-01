@@ -176,7 +176,7 @@ import pandas as pd
 #import ydata_profiling
 import streamlit as st
 
-from pandas_profiling import ProfileReport
+#from pandas_profiling import ProfileReport
 df = pd.read_csv("output.csv")
 profile = ProfileReport(df)
 profile
