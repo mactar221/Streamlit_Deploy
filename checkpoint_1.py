@@ -6,9 +6,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('Expresso_churn_dataset.csv')
-sampled_df = df.sample(frac=0.4)  # Get 50% of the data 
-len(sampled_df)
+df = pd.read_csv('output.csv')
+#sampled_df = df.sample(frac=0.4)  # Get 50% of the data 
+#len(sampled_df)
 
 
 st.dataframe(sampled_df)
