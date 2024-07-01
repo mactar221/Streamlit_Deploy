@@ -30,7 +30,7 @@ st.title("Machine Learning Workflow with Streamlit")
     
 
 
-st.title("Machine Learning Workflow with Streamlit")
+#st.title("Machine Learning Workflow with Streamlit")
 
 # Step 2: Data Exploration
 st.header("Step 2: Data Exploration")
