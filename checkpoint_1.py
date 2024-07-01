@@ -14,7 +14,6 @@ df = pd.read_csv('output.csv')
 
 st.dataframe(output)
 
-
 import streamlit as st # import streamlit and assign it to the variable 'st'
 
 st.title("Machine Learning Workflow with Streamlit")
@@ -29,8 +28,7 @@ if uploaded_file is not None:
 #else:
     #st.stop()
     
-    
-import streamlit as st # import streamlit and assign it to the variable 'st'
+
 import io # import the io module
 
 st.title("Machine Learning Workflow with Streamlit")
