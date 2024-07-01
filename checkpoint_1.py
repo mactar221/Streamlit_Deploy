@@ -5,13 +5,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+import streamlit as st # import streamlit and assign it to the variable 'st'
 
 df = pd.read_csv('output.csv')
 #sampled_df = df.sample(frac=0.4)  # Get 50% of the data 
 #len(sampled_df)
 
 
-#st.dataframe(sampled_df)
+st.dataframe(sampled_df)
 
 
 import streamlit as st # import streamlit and assign it to the variable 'st'
@@ -19,14 +20,14 @@ import streamlit as st # import streamlit and assign it to the variable 'st'
 st.title("Machine Learning Workflow with Streamlit")
 
 # Step 1: Upload the dataset
-st.header("Step 1: Upload the Dataset")
-uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
-if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file)
-    st.write("Data Preview:")
-    st.write(df.head())
-else:
-    st.stop()
+#st.header("Step 1: Upload the Dataset")
+#uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
+#if uploaded_file is not None:
+    #df = pd.read_csv(uploaded_file)
+    #st.write("Data Preview:")
+    #st.write(df.head())
+#else:
+    #st.stop()
     
     
 import streamlit as st # import streamlit and assign it to the variable 'st'
