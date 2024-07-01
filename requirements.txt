@@ -64,6 +64,5 @@ typeguard==4.3.0
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
-visions==0.7.4
 scikit-learn==1.5.0
 wordcloud==1.9.3
