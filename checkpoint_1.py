@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np 
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+import io # import the io module
 import streamlit as st # import streamlit and assign it to the variable 'st'
 
 df = pd.read_csv('output.csv')
@@ -21,7 +21,7 @@ st.title("Machine Learning Workflow with Streamlit")
 #Step 1: Upload the dataset
 st.header("Step 1: Upload the Dataset")
 uploaded_file = st.file_uploader("output.csv", type="csv")
-if uploaded_file is not None:
+#if uploaded_file is not None:
     #df = pd.read_csv(uploaded_file)
     #st.write("Data Preview:")
     #st.write(df.head())
@@ -29,7 +29,6 @@ if uploaded_file is not None:
     #st.stop()
     
 
-import io # import the io module
 
 st.title("Machine Learning Workflow with Streamlit")
 
