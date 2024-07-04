@@ -22,11 +22,11 @@ st.title("Machine Learning Workflow with Streamlit")
 st.header("Step 1: Upload the Dataset")
 uploaded_file = st.file_uploader("output.csv", type="csv")
 if uploaded_file is not None:
-    #df = pd.read_csv(uploaded_file)
-    #st.write("Data Preview:")
-    #st.write(df.head())
+    df = pd.read_csv(uploaded_file)
+    st.write("Data Preview:")
+    st.write(df.head())
 else:
-    #st.stop()
+    st.stop()
     
 
 
